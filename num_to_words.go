@@ -1,4 +1,4 @@
-package terbilang
+package NumsToWords
 
 import (
 	"fmt"
