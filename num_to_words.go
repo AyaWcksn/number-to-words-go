@@ -142,7 +142,7 @@ type FromFloat struct {
 	Value float64
 }
 
-func (val FromFloat) ToWord() string {
+func (val FromFloat) NumsToWord() string {
 	strOfTargetNumber := strconv.FormatFloat(val.Value, 'f', 6, 64)
 	return stringNumToWord(strOfTargetNumber)
 }
@@ -151,7 +151,7 @@ type FromString struct {
 	Value string
 }
 
-func (val FromString) ToWord() string {
+func (val FromString) NumsToWord() string {
 	return stringNumToWord(val.Value)
 }
 
@@ -159,7 +159,7 @@ type FromInt struct {
 	Value int
 }
 
-func (val FromInt) ToWord() string {
+func (val FromInt) NumsToWord() string {
 	strOfTargetNumber := strconv.Itoa(val.Value)
 	return stringNumToWord(strOfTargetNumber)
 }
