@@ -1,4 +1,4 @@
-package ToWords
+package main
 
 import (
 	"fmt"
