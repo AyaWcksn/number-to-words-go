@@ -1,4 +1,4 @@
-package NumsToWords
+package ToWords
 
 import (
 	"fmt"
