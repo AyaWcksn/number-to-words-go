@@ -1,4 +1,4 @@
-package ToWords
+package numbers2wordsgo
 
 import (
 	"fmt"

@@ -1,3 +1,3 @@
-module github.com/AyaWcksn/number-to-words-go
+module github.com/AyaWcksn/numbers2wordsgo
 
 go 1.17
